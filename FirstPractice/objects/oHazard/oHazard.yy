@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "thorns",
-    "path": "sprites/thorns/thorns.yy",
+    "name": "sThorns",
+    "path": "sprites/sThorns/sThorns.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sThorns",
+    "path": "sprites/sThorns/sThorns.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
