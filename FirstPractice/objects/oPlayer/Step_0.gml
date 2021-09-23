@@ -47,3 +47,16 @@ else {
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+// collision with hazard
+if (place_meeting(x + hsp, y, oHazard)) {
+	flash = 3;
+	vsp = -4;
+	x = x - (sign(move)*20);
+}
+
+if (place_meeting(x, y + vsp, oHazard)) {
+	flash = 20;
+	vsp = -4;
+	x = x - (sign(move)*20);
+}
