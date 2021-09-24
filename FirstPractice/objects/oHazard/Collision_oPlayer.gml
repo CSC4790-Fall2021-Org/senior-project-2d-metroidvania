@@ -1,2 +1,10 @@
-/// @desc code to reset player to safe platform
-// You can write your code in this editor
+/// @desc player collision with hazard
+
+oPlayer.flash = 20;
+oPlayer.vsp = -4;
+
+var count = 55;
+while (count > 0) { 
+	oPlayer.x--;
+	count--;
+}
