@@ -59,9 +59,9 @@ if (hsp != 0) image_xscale = sign(hsp);
 // collision with hazard
 if (place_meeting(x + hsp, y, oHazard)) {
 	flash = 20;
-	vsp = -6;
+	vsp = -4;
 	
-	var count = 50
+	var count = 55;
 	while (count > 0) { 
 		x--;
 		count--;
@@ -70,9 +70,9 @@ if (place_meeting(x + hsp, y, oHazard)) {
 
 if (place_meeting(x, y + vsp, oHazard)) {
 	flash = 20;
-	vsp = -6;
+	vsp = -4;
 	
-	var count = 50
+	var count = 55;
 	while (count > 0) { 
 		x--;
 		count--;
