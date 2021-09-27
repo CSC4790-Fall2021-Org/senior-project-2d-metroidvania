@@ -1,13 +1,16 @@
 {
-  "spriteId": null,
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": {
+  "spriteId": {
     "name": "sThorns",
     "path": "sprites/sThorns/sThorns.yy",
   },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oHazard",
+    "path": "objects/oHazard/oHazard.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,10 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Hazards.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oHazard",
+  "name": "OThorns",
   "tags": [],
   "resourceType": "GMObject",
 }
