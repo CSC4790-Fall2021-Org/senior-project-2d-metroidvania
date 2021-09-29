@@ -55,3 +55,12 @@ else {
 
 // makes character face direction of movement
 if (hsp != 0) image_xscale = sign(hsp);
+
+//Grappling functionality
+if (keyboard_check_pressed(vk_enter)) && distance_to_object(oGrapple) < 200 {
+	self.x = instance_nearest(self.x,self.y,oGrapple).x;
+	self.y = instance_nearest(self.x,self.y,oGrapple).y;
+	x+=hsp;
+	vsp = -10;
+}
+
