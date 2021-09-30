@@ -64,4 +64,3 @@ if (keyboard_check_pressed(vk_enter)) && distance_to_object(oGrapple) < 200 {
 	x+=hsp;
 	vsp = -10;
 }
-
