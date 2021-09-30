@@ -18,14 +18,14 @@ if (input_blocked == false) {
 
 	// player movement:L/R
 	x += hsp;
+	
+	// player movement: jump
+	if (place_meeting(x, y+1, oWall)) && (key_jump) {
+		vsp = -9;
+	}
 }
 	
 vsp += grv;
-
-// player movement: jump
-if (place_meeting(x, y+1, oWall)) && (key_jump) {
-	vsp = -9;
-}
 
 // vertical collision
 if (place_meeting(x, y + vsp, oWall)) {
