@@ -1,11 +1,11 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sGrapple",
+    "path": "sprites/sGrapple/sGrapple.yy",
+  },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "sThorns",
-    "path": "sprites/sThorns/sThorns.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Hazards",
-    "path": "folders/Objects/Hazards.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oHazard",
+  "name": "oGrapple",
   "tags": [],
   "resourceType": "GMObject",
 }
