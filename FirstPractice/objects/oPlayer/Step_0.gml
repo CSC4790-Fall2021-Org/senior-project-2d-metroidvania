@@ -62,7 +62,7 @@ else {
 }
 
 //Player Health Logic
-if(global.health == 0) {
+if(global.playerhealth == 0) {
 	instance_destroy(oPlayer);
 }
 

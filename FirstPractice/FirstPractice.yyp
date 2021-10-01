@@ -9,7 +9,6 @@
     {"id":{"name":"sThorns","path":"sprites/sThorns/sThorns.yy",},"order":4,},
     {"id":{"name":"sSafePoint","path":"sprites/sSafePoint/sSafePoint.yy",},"order":15,},
     {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"order":10,},
-    {"id":{"name":"oHealth","path":"objects/oHealth/oHealth.yy",},"order":10,},
     {"id":{"name":"sWarp","path":"sprites/sWarp/sWarp.yy",},"order":5,},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":3,},
