@@ -1,6 +1,6 @@
 /// @desc player collide with enemy
 if (invincible == false) {
-	global.playerhealth -=2;
+	global.playerhealth -= 2;
 	invincible = true;
 	input_blocked = true;
 	flash = 80;
