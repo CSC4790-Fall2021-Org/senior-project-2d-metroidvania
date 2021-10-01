@@ -23,11 +23,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-<<<<<<< HEAD
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oCane","path":"objects/oCane/oCane.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-=======
->>>>>>> 2d798b4e32284a2306708aee86806cb75388846d
   ],
   "properties": [],
   "overriddenProperties": [],
