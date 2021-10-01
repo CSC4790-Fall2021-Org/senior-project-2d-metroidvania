@@ -1,3 +1,4 @@
 /// @description Insert description here
-// You can write your code in this editor
-key_space = 
+if (global.playerhealth == 0) {
+	instance_destroy(oCane);
+}

@@ -61,5 +61,10 @@ else {
 	}
 }
 
+//Player Health Logic
+if(global.playerhealth == 0) {
+	instance_destroy(oPlayer);
+}
+
 // makes character face direction of movement
 if (hsp != 0) image_xscale = sign(hsp);

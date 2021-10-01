@@ -1,5 +1,5 @@
 /// @desc player collide with static hazard
-	
+global.playerhealth -=2;	
 invincible = true;
 input_blocked = true;
 flash = 80;
