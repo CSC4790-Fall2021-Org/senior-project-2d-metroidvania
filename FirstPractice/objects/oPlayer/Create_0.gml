@@ -8,3 +8,4 @@ invincible = false;
 input_blocked = false;
 last_safe_x = 0;
 last_safe_y = 0;
+global.playerhealth = 10;
