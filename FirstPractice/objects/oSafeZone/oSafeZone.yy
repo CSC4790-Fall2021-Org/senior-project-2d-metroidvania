@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sWarp",
-    "path": "sprites/sWarp/sWarp.yy",
+    "name": "sSafeZone",
+    "path": "sprites/sSafeZone/sSafeZone.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": {
     "name": "sSafeZone",
     "path": "sprites/sSafeZone/sSafeZone.yy",
@@ -23,10 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWarp",
+  "name": "oSafeZone",
   "tags": [],
   "resourceType": "GMObject",
 }

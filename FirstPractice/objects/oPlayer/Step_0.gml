@@ -20,9 +20,9 @@ if (input_blocked == false) {
 	x += hsp;
 	
 	// player movement: jump
-	if (place_meeting(x, y+1, oWall)) && (key_jump) {
-		vsp = -9;
-	}
+if (place_meeting(x, y+1, oWall)) && (key_jump) {
+	vsp = -9;
+}
 }
 	
 vsp += grv;
@@ -64,3 +64,4 @@ if (keyboard_check_pressed(vk_enter)) && distance_to_object(oGrapple) < 200 {
 	x+=hsp;
 	vsp = -10;
 }
+
