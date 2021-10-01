@@ -1,10 +1,13 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sSafeZone",
+    "path": "sprites/sSafeZone/sSafeZone.yy",
+  },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": {
-    "name": "sThorns",
-    "path": "sprites/sThorns/sThorns.yy",
+    "name": "sSafeZone",
+    "path": "sprites/sSafeZone/sSafeZone.yy",
   },
   "persistent": false,
   "parentObjectId": null,
@@ -20,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Hazards",
-    "path": "folders/Objects/Hazards.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oHazard",
+  "name": "oSafeZone",
   "tags": [],
   "resourceType": "GMObject",
 }
