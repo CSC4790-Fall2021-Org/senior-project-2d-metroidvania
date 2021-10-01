@@ -3,6 +3,7 @@
     {"id":{"name":"oCane","path":"objects/oCane/oCane.yy",},"order":2,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":4,},
     {"id":{"name":"oGrapple","path":"objects/oGrapple/oGrapple.yy",},"order":6,},
+    {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":8,},
     {"id":{"name":"sEnemyRoll","path":"sprites/sEnemyRoll/sEnemyRoll.yy",},"order":9,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":2,},
     {"id":{"name":"ShaderWhite","path":"shaders/ShaderWhite/ShaderWhite.yy",},"order":0,},
