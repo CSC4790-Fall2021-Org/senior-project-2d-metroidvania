@@ -24,10 +24,8 @@ if (place_meeting(x, y + vsp, oWall)) {
 y += vsp;
 
 // aerial sprite logic
-if (!place_meeting(x, y+1, oWall)) {
-	sprite_index = sEnemyW;
-	image_speed = 0;
-	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
+if (rolling) {
+	sprite_index = sEnemyRoll;
 }
 // sprite logic
 else {
