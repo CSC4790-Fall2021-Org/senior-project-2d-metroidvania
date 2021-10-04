@@ -1,8 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @desc set common enemy variables
 vsp = 0;
 grv = 0.3;
 walksp = 2;
 flash = 0;
 hsp = walksp;
-rolling = false;
+aggressive = false;
+player_near = false;
+facing_player = false;
