@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":11,},
     {"id":{"name":"oCane","path":"objects/oCane/oCane.yy",},"order":2,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":8,},
     {"id":{"name":"oGrapple","path":"objects/oGrapple/oGrapple.yy",},"order":6,},
@@ -8,6 +9,8 @@
     {"id":{"name":"ShaderWhite","path":"shaders/ShaderWhite/ShaderWhite.yy",},"order":0,},
     {"id":{"name":"sThorns","path":"sprites/sThorns/sThorns.yy",},"order":4,},
     {"id":{"name":"sSafePoint","path":"sprites/sSafePoint/sSafePoint.yy",},"order":15,},
+    {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"order":10,},
+    {"id":{"name":"oHealth","path":"objects/oHealth/oHealth.yy",},"order":10,},
     {"id":{"name":"sWarp","path":"sprites/sWarp/sWarp.yy",},"order":5,},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":3,},
