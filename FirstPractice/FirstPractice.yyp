@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":11,},
     {"id":{"name":"oCane","path":"objects/oCane/oCane.yy",},"order":2,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":8,},
     {"id":{"name":"oGrapple","path":"objects/oGrapple/oGrapple.yy",},"order":6,},
