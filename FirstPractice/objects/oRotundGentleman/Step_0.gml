@@ -26,6 +26,7 @@ if (place_meeting(x, y + vsp, oWall)) {
 y += vsp;
 
 if (aggressive) {
+	hsp = sign(hsp) * 4;
 	rolling = true;
 }
 else {
