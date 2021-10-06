@@ -1,12 +1,15 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sPit",
+    "path": "sprites/sPit/sPit.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oEnemies",
-    "path": "objects/oEnemies/oEnemies.yy",
+    "name": "oHazard",
+    "path": "objects/oHazard/oHazard.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -20,18 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Hazards",
+    "path": "folders/Objects/Hazards.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oEnemy",
+  "name": "oPit",
   "tags": [],
   "resourceType": "GMObject",
 }

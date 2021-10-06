@@ -1,26 +1,4 @@
 event_inherited();
-/*vsp += grv;
-
-// player movement: collision
-if (place_meeting(x + hsp, y, oWall) or place_meeting(x + hsp, y, oInvisWall)) {
-	while (!place_meeting(x + sign(hsp), y, oWall) and !place_meeting(x + sign(hsp), y, oInvisWall)) {
-		x += sign(hsp);
-	}
-	hsp = -hsp;
-}
-
-// player movement:L/R
-x += hsp;
-
-// vertical collision
-if (place_meeting(x, y + vsp, oWall)) {
-	while (!place_meeting(x, y + sign(vsp), oWall)) {
-		y += sign(vsp);
-	}
-	vsp = 0;
-}
-
-y += vsp; */
 
 // aerial sprite logic
 if (rolling) {
@@ -47,15 +25,15 @@ if (timer <= 0) {
 	if (rolling) {
 		rolling = false;
 		dazed = true;
-		timer = 10;
+		timer = 1000;
 	}
 	else if (dazed) {
 		dazed = false;
-		timer = 30;
+		timer = 1000;
 	}
 	else {
 		dazed = true;
-		timer = 10;
+		timer = 1000;
 	}
 	
 }

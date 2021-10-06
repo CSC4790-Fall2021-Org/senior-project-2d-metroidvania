@@ -2,5 +2,5 @@
 // You can write your code in this editor
 if (dazed) {
 	rolling = true;
-	timer = 30;
+	timer = 2000;
 }
