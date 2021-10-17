@@ -6,3 +6,7 @@ if (flash > 0) {
 	draw_self();
 	shader_reset();
 }
+
+if (grapple) {
+	draw_line(oCane.x, oCane.y, gx, gy);
+}
