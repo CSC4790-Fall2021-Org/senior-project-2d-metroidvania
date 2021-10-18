@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-rolling = true;
+if (dazed) {
+	rolling = true;
+	timer = 2000;
+}

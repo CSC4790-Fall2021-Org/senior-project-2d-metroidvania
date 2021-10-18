@@ -17,19 +17,29 @@ if (input_blocked == false) {
 	}
 
 	// player movement:L/R
-	x += hsp;
+	//x += hsp;
 	
 	// player movement: jump
 	if (place_meeting(x, y+1, oWall)) && (key_jump) {
 		vsp = -9;
 	}
 	//Grappling functionality
-	if (keyboard_check_pressed(vk_enter)) && distance_to_object(oGrapple) < 200 {
-		self.x = instance_nearest(self.x,self.y,oGrapple).x;
-		self.y = instance_nearest(self.x,self.y,oGrapple).y;
-		x+=hsp;
-		vsp = -10;
+	if (keyboard_check_pressed(vk_enter) && distance_to_object(oGrapple) < 200) {
+		grapple = true;
+		inst = instance_nearest(x, y, oGrapple);
+		gx = inst.x;
+		gy = inst.y;
 	}
+	if (keyboard_check_released(vk_enter)) {
+		grapple = false;
+	}
+	if (grapple) {
+		x += (gx - x) * 0.05;
+		y += (gy - y) * 0.05;
+		vsp = 0;
+		hsp = 0;
+	}
+	x += hsp;
 }
 	
 vsp += grv;
