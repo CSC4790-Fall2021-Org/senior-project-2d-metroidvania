@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sWire",
-    "path": "sprites/sWire/sWire.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

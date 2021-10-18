@@ -29,7 +29,6 @@
     {"id":{"name":"sCane","path":"sprites/sCane/sCane.yy",},"order":5,},
     {"id":{"name":"oRotundGentleman","path":"objects/oRotundGentleman/oRotundGentleman.yy",},"order":1,},
     {"id":{"name":"oSafePoint","path":"objects/oSafePoint/oSafePoint.yy",},"order":9,},
-    {"id":{"name":"sWire","path":"sprites/sWire/sWire.yy",},"order":15,},
     {"id":{"name":"sPit","path":"sprites/sPit/sPit.yy",},"order":11,},
     {"id":{"name":"sGrapple","path":"sprites/sGrapple/sGrapple.yy",},"order":9,},
     {"id":{"name":"oInvisWall","path":"objects/oInvisWall/oInvisWall.yy",},"order":5,},
