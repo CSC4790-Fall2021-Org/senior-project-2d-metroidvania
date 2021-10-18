@@ -26,10 +26,14 @@ if (place_meeting(x, y + vsp, oWall)) {
 y += vsp;
 
 if (aggressive) {
-	rolling = true;	
+	hsp = sign(hsp) * 4;
+	rolling = true;
+}
+else {
+	rolling = false;
 }
 
-// aerial sprite logic
+// rolling sprite logic
 if (rolling) {
 	sprite_index = sEnemyRoll;
 }

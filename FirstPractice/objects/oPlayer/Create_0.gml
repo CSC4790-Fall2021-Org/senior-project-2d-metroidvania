@@ -9,3 +9,6 @@ input_blocked = false;
 last_safe_x = 0;
 last_safe_y = 0;
 global.playerhealth = 10;
+grapple = false;
+gx = 0;
+gy = 0;
