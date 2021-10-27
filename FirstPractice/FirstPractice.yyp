@@ -22,6 +22,7 @@
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":8,},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":0,},
     {"id":{"name":"sEnemyW","path":"sprites/sEnemyW/sEnemyW.yy",},"order":7,},
+    {"id":{"name":"sGrappleGreen","path":"sprites/sGrappleGreen/sGrappleGreen.yy",},"order":16,},
     {"id":{"name":"AnimationCurve1","path":"animcurves/AnimationCurve1/AnimationCurve1.yy",},"order":0,},
     {"id":{"name":"OThorns","path":"objects/OThorns/OThorns.yy",},"order":1,},
     {"id":{"name":"oWarp","path":"objects/oWarp/oWarp.yy",},"order":3,},

@@ -4,6 +4,9 @@ rolling = false;
 
 vsp += grv;
 
+if(global.enemyhealth <= 0) {
+	instance_destroy();
+}
 // player movement: collision
 if (place_meeting(x + hsp, y, oWall) or place_meeting(x + hsp, y, oInvisWall)) {
 	while (!place_meeting(x + sign(hsp), y, oWall) and !place_meeting(x + sign(hsp), y, oInvisWall)) {
@@ -26,10 +29,14 @@ if (place_meeting(x, y + vsp, oWall)) {
 y += vsp;
 
 if (aggressive) {
-	rolling = true;	
+	hsp = sign(hsp) * 4;
+	rolling = true;
+}
+else {
+	rolling = false;
 }
 
-// aerial sprite logic
+// rolling sprite logic
 if (rolling) {
 	sprite_index = sEnemyRoll;
 }

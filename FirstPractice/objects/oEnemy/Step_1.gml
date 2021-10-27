@@ -16,7 +16,5 @@ else {
 
 if (facing_player && player_near) {
 	aggressive = true;
-}
-else {
-	aggressive = false;
+	alarm[0] = 120;
 }
