@@ -1,5 +1,3 @@
 /// @desc aggression timer
 aggressive = false;
-hsp = sign(hsp) * 2;
-
-
+hsp = 2 * is_facing;

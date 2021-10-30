@@ -8,3 +8,4 @@ global.enemyhealth = 10;
 aggressive = false;
 player_near = false;
 facing_player = false;
+is_facing = sign(hsp);
