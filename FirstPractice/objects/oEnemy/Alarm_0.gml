@@ -1,2 +1,2 @@
-/// @desc aggression timer
-aggressive = false;
+/// @desc telegraph timer
+aggressive = true;
