@@ -21,3 +21,6 @@ if (invincible == false) {
 		hsp =0;
 	}
 }
+else if (dash > 0) {
+	global.enemyhealth -= 4;
+}
