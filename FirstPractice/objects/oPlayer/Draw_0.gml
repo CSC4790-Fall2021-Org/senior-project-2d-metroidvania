@@ -7,6 +7,13 @@ if (flash > 0) {
 	shader_reset();
 }
 
+if (dash > 0) {
+	dash--;
+	sprite_index = sPlayerDash;
+	//shader_set(ShaderRed);
+	draw_self();
+	//shader_reset();
+}
 if (grapple) {
 	draw_line(oCane.x, oCane.y, gx, gy);
 }
