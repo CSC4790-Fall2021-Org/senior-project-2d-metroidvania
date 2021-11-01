@@ -1,14 +1,17 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @desc rotund gentleman logic
 rolling = false;
 
 vsp += grv;
 
+if(global.enemyhealth <= 0) {
+	instance_destroy();
+}
 // player movement: collision
 if (place_meeting(x + hsp, y, oWall) or place_meeting(x + hsp, y, oInvisWall)) {
 	while (!place_meeting(x + sign(hsp), y, oWall) and !place_meeting(x + sign(hsp), y, oInvisWall)) {
 		x += sign(hsp);
 	}
+	is_facing = -is_facing;
 	hsp = -hsp;
 }
 
@@ -20,13 +23,14 @@ if (place_meeting(x, y + vsp, oWall)) {
 	while (!place_meeting(x, y + sign(vsp), oWall)) {
 		y += sign(vsp);
 	}
-	vsp = 0;
+	vsp = 0
 }
 
 y += vsp;
 
+// attack phase
 if (aggressive) {
-	hsp = sign(hsp) * 4;
+	hsp = 4 * is_facing;
 	rolling = true;
 }
 else {

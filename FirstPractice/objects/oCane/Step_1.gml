@@ -3,4 +3,4 @@
 x = oPlayer.x;
 y = oPlayer.y;
 
-image_angle = 315;
+image_xscale = facing;
