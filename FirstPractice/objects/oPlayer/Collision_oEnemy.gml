@@ -7,7 +7,7 @@ if (invincible == false) {
 	alarm[0] = 80;
 	alarm[1] = 50;
 	
-	vsp = -4;
+	vsp = -4; 
 	
 	if (self.hsp == 0) {
 		self.hsp += other.hsp * 20;
@@ -20,4 +20,7 @@ if (invincible == false) {
 		self.x += self.hsp;
 		hsp =0;
 	}
+}
+else if (dash > 0) {
+	global.enemyhealth -= 4;
 }
