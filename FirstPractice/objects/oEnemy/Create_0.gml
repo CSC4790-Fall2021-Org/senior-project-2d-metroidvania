@@ -4,6 +4,7 @@ grv = 0.3;
 walksp = 2;
 flash = 0;
 hsp = walksp;
+hurt = 0;
 global.enemyhealth = 10;
 aggressive = false;
 player_near = false;
