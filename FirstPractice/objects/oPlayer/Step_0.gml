@@ -15,6 +15,12 @@ if (input_blocked == false) {
 		}
 		hsp = 0;
 	}
+	if (place_meeting(x + hsp, y, oWallBreakable)) {
+		while (!place_meeting(x + sign(hsp), y, oWallBreakable)) {
+			x += sign(hsp);
+		}
+		hsp = 0;
+	}
 
 	// player movement:L/R
 	//x += hsp;
