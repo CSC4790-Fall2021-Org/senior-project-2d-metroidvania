@@ -109,8 +109,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "enviromnment",
+    "path": "folders/Sprites/enviromnment.yy",
   },
   "resourceVersion": "1.0",
   "name": "sHealth",
