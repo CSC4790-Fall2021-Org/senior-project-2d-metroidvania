@@ -25,5 +25,4 @@ if (facing_player && player_near) {
 		telegraph = true;
 		alarm[0] = 65;
 	}
-	alarm[1] = 120;
 }
