@@ -1,5 +1,6 @@
 /// @desc rotund gentleman logic
 rolling = false;
+off_balance = false;
 
 vsp += grv;
 
@@ -44,8 +45,9 @@ if (rolling) {
 // sprite logic
 else {
 	image_speed = 1;
-	if (hsp == 0) {
-		sprite_index = sEnemy;
+	if (telegraph) {
+		sprite_index = sEnemyTelegraph;
+		off_balance = true;
 	}
 	else {
 		sprite_index = sEnemyW;

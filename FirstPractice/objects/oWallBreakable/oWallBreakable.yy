@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oSaveEntities",
-    "path": "objects/oSaveEntities/oSaveEntities.yy",
+    "name": "oParentWall",
+    "path": "objects/oParentWall/oParentWall.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
