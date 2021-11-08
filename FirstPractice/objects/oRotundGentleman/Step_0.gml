@@ -36,7 +36,6 @@ if (aggressive) {
 		aggressive = false;
 		dazed = true;
 		hsp = 0;
-		x -= 0.1*is_facing;
 		vsp = -2;
 		
 		if (unbalanced) {
@@ -53,7 +52,7 @@ if (telegraph) {
 }
 
 if (dazed) {
-	sprite_index = sEnemy;	
+	sprite_index = sEnemy; // TODO make a dazed sprite	
 }
 
 // makes character face direction of movement
