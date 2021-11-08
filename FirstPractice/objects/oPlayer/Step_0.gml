@@ -86,8 +86,10 @@ else if(dash == 0) {
 
 //Player Health Logic
 if(global.playerhealth == 0) {
-	instance_destroy(oPlayer);
-	room_restart();
+	//instance_destroy(oPlayer);
+	//room_restart();
+	loadGame();
+	global.playerhealth = 10;
 }
 
 // makes character face direction of movement

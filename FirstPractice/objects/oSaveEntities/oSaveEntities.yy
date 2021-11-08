@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "sWallBreakable",
-    "path": "sprites/sWallBreakable/sWallBreakable.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oSaveEntities",
-    "path": "objects/oSaveEntities/oSaveEntities.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWallBreakable",
+  "name": "oSaveEntities",
   "tags": [],
   "resourceType": "GMObject",
 }
