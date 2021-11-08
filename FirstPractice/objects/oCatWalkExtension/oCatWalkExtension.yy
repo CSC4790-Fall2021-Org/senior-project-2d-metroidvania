@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "sWall",
-    "path": "sprites/sWall/sWall.yy",
+    "name": "sCatWalkExtension",
+    "path": "sprites/sCatWalkExtension/sCatWalkExtension.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oParentWall",
-    "path": "objects/oParentWall/oParentWall.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWall",
+  "name": "oCatWalkExtension",
   "tags": [],
   "resourceType": "GMObject",
 }
