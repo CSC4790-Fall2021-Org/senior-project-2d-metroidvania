@@ -22,9 +22,7 @@ else {
 if (facing_player && player_near) {
 	if (!aggressive) {
 		hsp = 0;
-		alarm[0] = 20;
-	}
-	else {
-		alarm[1] = 120;
+		telegraph = true;
+		alarm[0] = 65;
 	}
 }

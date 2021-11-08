@@ -1,3 +1,5 @@
-/// @desc attack
-hsp = 2 * is_facing;
-rolling = false;
+/// @desc aggression timer
+aggressive = false;
+if (!dazed) {
+	hsp = 2 * is_facing;
+}
