@@ -1,57 +1,58 @@
 /// @desc rotund gentleman logic
-rolling = false;
-off_balance = false;
-
-vsp += grv;
-
 if(global.enemyhealth <= 0) {
 	instance_destroy();
 }
-// player movement: collision
-if (place_meeting(x + hsp, y, oWall) or place_meeting(x + hsp, y, oInvisWall)) {
-	while (!place_meeting(x + sign(hsp), y, oWall) and !place_meeting(x + sign(hsp), y, oInvisWall)) {
-		x += sign(hsp);
-	}
-	is_facing = -is_facing;
-	hsp = -hsp;
-}
 
-// player movement:L/R
-x += hsp;
+
+sprite_index = sEnemyW;
 
 // vertical collision
+vsp += grv;
 if (place_meeting(x, y + vsp, oWall)) {
 	while (!place_meeting(x, y + sign(vsp), oWall)) {
 		y += sign(vsp);
 	}
-	vsp = 0
+	vsp = 0;
 }
 
 y += vsp;
 
-// attack phase
-if (aggressive) {
-	hsp = 4 * is_facing;
-	rolling = true;
-}
-else {
-	rolling = false;
+// player movement: collision
+if (place_meeting(x + hsp, y, oWall) || place_meeting(x + hsp, y, oHazard)) {
+	is_facing = -is_facing;
+	while (!place_meeting(x + sign(hsp), y, oWall) and !place_meeting(x + sign(hsp), y, oHazard)) {
+		x += sign(hsp);
+	}	
+	hsp = -hsp;
 }
 
-// rolling sprite logic
-if (rolling) {
+x += hsp;
+
+if (aggressive) {
+	hsp = 4 * is_facing;
 	sprite_index = sEnemyRoll;
+	
+	if (place_meeting(x, y, oWall) || place_meeting(x, y, oHazard)) {
+		aggressive = false;
+		dazed = true;
+		hsp = 0;
+		vsp = -2;
+		
+		if (unbalanced) {
+			alarm[2] = 150;
+		}
+		else {
+			alarm[2] = 100;
+		}
+	}
 }
-// sprite logic
-else {
-	image_speed = 1;
-	if (telegraph) {
-		sprite_index = sEnemyTelegraph;
-		off_balance = true;
-	}
-	else {
-		sprite_index = sEnemyW;
-	}
+
+if (telegraph) {
+	sprite_index = sEnemyTelegraph;	
+}
+
+if (dazed) {
+	sprite_index = sEnemy; // TODO make a dazed sprite	
 }
 
 // makes character face direction of movement
