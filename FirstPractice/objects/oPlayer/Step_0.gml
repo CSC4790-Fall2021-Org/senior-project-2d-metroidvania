@@ -9,24 +9,24 @@ if (input_blocked == false) {
 
 	hsp = move * walksp;
 	// player movement: collision
-	if (place_meeting(x + hsp, y, oWall)) {
-		while (!place_meeting(x + sign(hsp), y, oWall)) {
+	if (place_meeting(x + hsp, y, oParentWall)) {
+		while (!place_meeting(x + sign(hsp), y, oParentWall)) {
 			x += sign(hsp);
 		}
 		hsp = 0;
 	}
-	if (place_meeting(x + hsp, y, oWallBreakable)) {
+	/*if (place_meeting(x + hsp, y, oWallBreakable)) {
 		while (!place_meeting(x + sign(hsp), y, oWallBreakable)) {
 			x += sign(hsp);
 		}
 		hsp = 0;
-	}
+	} */
 
 	// player movement:L/R
 	//x += hsp;
 	
 	// player movement: jump
-	if (place_meeting(x, y+1, oWall)) && (key_jump) {
+	if (place_meeting(x, y+1, oParentWall)) && (key_jump) {
 		vsp = -9;
 	}
 	//Grappling functionality
@@ -48,7 +48,7 @@ if (input_blocked == false) {
 	}
 	
 	if (dash > 0) {
-		if (!place_meeting(x + 10*image_xscale, y, oWall)) {
+		if (!place_meeting(x + 10*image_xscale, y, oParentWall)) {
 			x += 4*image_xscale;
 		}
 	}
@@ -58,8 +58,8 @@ if (input_blocked == false) {
 vsp += grv;
 
 // vertical collision
-if (place_meeting(x, y + vsp, oWall)) {
-	while (!place_meeting(x, y + sign(vsp), oWall)) {
+if (place_meeting(x, y + vsp, oParentWall)) {
+	while (!place_meeting(x, y + sign(vsp), oParentWall)) {
 		y += sign(vsp);
 	}
 	vsp = 0;
@@ -68,7 +68,7 @@ if (place_meeting(x, y + vsp, oWall)) {
 y += vsp;
 
 // aerial sprite logic
-if (!place_meeting(x, y+1, oWall) && dash == 0) {
+if (!place_meeting(x, y+1, oParentWall) && dash == 0) {
 	sprite_index = sPlayerA;
 	image_speed = 0;
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
