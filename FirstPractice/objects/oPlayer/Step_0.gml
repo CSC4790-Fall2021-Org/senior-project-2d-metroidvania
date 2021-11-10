@@ -9,22 +9,21 @@ if (input_blocked == false) {
 
 	hsp = move * walksp;
 	// player movement: collision
-	if (place_meeting(x + hsp, y, oParentWall)) {
+	if (place_meeting(x + hsp, y, oParentWall) && dash == 0) {
 		while (!place_meeting(x + sign(hsp), y, oParentWall)) {
 			x += sign(hsp);
 		}
 		hsp = 0;
 	}
-	/*if (place_meeting(x + hsp, y, oWallBreakable)) {
-		while (!place_meeting(x + sign(hsp), y, oWallBreakable)) {
+	else if(place_meeting(x + hsp, y, oWallBreakable) && dash > 0) {
+		instance_destroy(instance_nearest(x,y,oWallBreakable))
+	}
+	else if(place_meeting(x + hsp, y, oParentWall)) {
+		while (!place_meeting(x + sign(hsp), y, oParentWall)) {
 			x += sign(hsp);
 		}
 		hsp = 0;
-	} */
-
-	// player movement:L/R
-	//x += hsp;
-	
+	}
 	// player movement: jump
 	if (place_meeting(x, y+1, oParentWall)) && (key_jump) {
 		vsp = -9;
