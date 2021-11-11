@@ -1,4 +1,4 @@
-
+/// @desc Wilford the Immense logic
 // vertical collision
 vsp += grv;
 if (place_meeting(x, y + vsp, oWall)) {
@@ -15,13 +15,9 @@ if (place_meeting(x + hsp, y, oWall) || place_meeting(x + hsp, y, oHazard)) {
 		x += sign(hsp);
 	}	
 	hsp = -hsp;
-	image_xscale = sign(hsp) * image_yscale
-	
+	image_xscale = -image_xscale;		
 }
-
-	//x += hsp;
-
-// have a laughing animation play at the start of the fight
+x += hsp;
 
 // have a timer for a random interval between x and y between attacks
 	// boss randomly chooses between roll and shockwave for 2-3 attacks
