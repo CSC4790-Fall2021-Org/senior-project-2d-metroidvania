@@ -1,4 +1,5 @@
 /// @desc Wilford the Immense logic
+jump_attack = true;
 // vertical collision
 vsp += grv;
 if (place_meeting(x, y + vsp, oWall)) {
@@ -15,20 +16,19 @@ if (place_meeting(x + hsp, y, oWall) || place_meeting(x + hsp, y, oHazard)) {
 		x += sign(hsp);
 	}	
 	hsp = -hsp;
-	image_xscale = -image_xscale;		
+	image_xscale = -image_xscale;
+	vsp = -8;
+	for (i = 0;i<60;i++) {
+		x += sign(hsp);
+	}
+	hsp = 0;
+	roll_attack = false;
 }
 x += hsp;
 
-// have a timer for a random interval between x and y between attacks
-	// boss randomly chooses between roll and shockwave for 2-3 attacks
+// boss randomly chooses between roll and shockwave for 2-3 attacks
 	// every third or fourth attack is the jump attack
 	
-// if roll_attack
-	// boss rolls across the arena at the player
-
-// if jump_attack
-	// boss jumps
-	// when he lands there is a screenshake and if the player is on the gound they become stunned
-	
-// if shockwave_attack
-	// boss
+if	(alarm[1] < 0) {
+	alarm[1] = 120;	
+}
