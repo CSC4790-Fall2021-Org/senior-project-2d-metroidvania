@@ -19,7 +19,7 @@ if (place_meeting(x + hsp, y, oWall) || place_meeting(x + hsp, y, oHazard)) {
 	
 }
 
-	x += hsp;
+	//x += hsp;
 
 // have a laughing animation play at the start of the fight
 
