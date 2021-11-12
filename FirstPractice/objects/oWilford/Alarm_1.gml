@@ -7,3 +7,4 @@ if (jump_attack) {
 	vsp = -6;
 	jump_attack = false; 
 }
+

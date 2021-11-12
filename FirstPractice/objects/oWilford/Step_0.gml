@@ -1,5 +1,5 @@
 /// @desc Wilford the Immense logic
-jump_attack = true;
+
 // vertical collision
 vsp += grv;
 if (place_meeting(x, y + vsp, oWall)) {
@@ -25,10 +25,7 @@ if (place_meeting(x + hsp, y, oWall) || place_meeting(x + hsp, y, oHazard)) {
 	roll_attack = false;
 }
 x += hsp;
-
-// boss randomly chooses between roll and shockwave for 2-3 attacks
-	// every third or fourth attack is the jump attack
 	
-if	(alarm[1] < 0) {
-	alarm[1] = 120;	
+if	(alarm[0] < 0) {
+	alarm[0] = 240;	
 }
