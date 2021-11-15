@@ -2,7 +2,7 @@
   "resources": [
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":11,},
     {"id":{"name":"oCane","path":"objects/oCane/oCane.yy",},"order":2,},
-    {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":0,},
+    {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":1,},
     {"id":{"name":"oGrapple","path":"objects/oGrapple/oGrapple.yy",},"order":6,},
     {"id":{"name":"oPit","path":"objects/oPit/oPit.yy",},"order":3,},
     {"id":{"name":"sWallBreakable","path":"sprites/sWallBreakable/sWallBreakable.yy",},"order":18,},
@@ -48,7 +48,7 @@
     {"id":{"name":"oCatWalk","path":"objects/oCatWalk/oCatWalk.yy",},"order":16,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"sCane","path":"sprites/sCane/sCane.yy",},"order":3,},
-    {"id":{"name":"oRotundGentleman","path":"objects/oRotundGentleman/oRotundGentleman.yy",},"order":1,},
+    {"id":{"name":"oRotundGentleman","path":"objects/oRotundGentleman/oRotundGentleman.yy",},"order":0,},
     {"id":{"name":"oSafePoint","path":"objects/oSafePoint/oSafePoint.yy",},"order":9,},
     {"id":{"name":"sPit","path":"sprites/sPit/sPit.yy",},"order":11,},
     {"id":{"name":"sGrapple","path":"sprites/sGrapple/sGrapple.yy",},"order":9,},

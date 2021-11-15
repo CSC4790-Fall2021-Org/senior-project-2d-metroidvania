@@ -1,5 +1,8 @@
 /// @desc Wilford the Immense logic
 
+if (!roll_attack && !jump_attack && !shockwave_attack) {
+	sprite_index = sWilford;	
+}
 // vertical collision
 vsp += grv;
 if (place_meeting(x, y + vsp, oWall)) {
