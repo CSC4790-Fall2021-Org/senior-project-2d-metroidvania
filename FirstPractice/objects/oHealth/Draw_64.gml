@@ -1,1 +1,1 @@
-draw_self();
+draw_sprite(sHealth, image_index, 75, 75);

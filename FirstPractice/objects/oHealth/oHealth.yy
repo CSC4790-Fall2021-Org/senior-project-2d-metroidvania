@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sHealth",
-    "path": "sprites/sHealth/sHealth.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

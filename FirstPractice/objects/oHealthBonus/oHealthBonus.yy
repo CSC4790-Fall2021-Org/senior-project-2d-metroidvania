@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sHealthBonus",
-    "path": "sprites/sHealthBonus/sHealthBonus.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
