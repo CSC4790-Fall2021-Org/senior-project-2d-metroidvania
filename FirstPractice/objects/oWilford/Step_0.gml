@@ -1,8 +1,5 @@
 /// @desc Wilford the Immense logic
 
-if (!roll_attack && !jump_attack && !shockwave_attack) {
-	sprite_index = sWilford;	
-}
 // vertical collision
 vsp += grv;
 if (place_meeting(x, y + vsp, oWall)) {
@@ -21,8 +18,10 @@ if (place_meeting(x + hsp, y, oWall) || place_meeting(x + hsp, y, oHazard)) {
 	hsp = -hsp;
 	image_xscale = -image_xscale;
 	vsp = -4;
-	hsp = 0;
 	roll_attack = false;
+	hsp = 2 * sign(image_xscale);
+	sprite_index = sWilfordw;
+	alarm[2] = 100;
 }
 x += hsp;
 	
