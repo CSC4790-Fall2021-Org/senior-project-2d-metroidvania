@@ -10,6 +10,7 @@ invincible = false;
 input_blocked = false;
 last_safe_x = 0;
 last_safe_y = 0;
+global.maxhealth = 10;
 global.playerhealth = 10;
 grapple = false;
 gx = 0;
