@@ -6,6 +6,12 @@ if (place_meeting(x, y + vsp, oWall)) {
 	while (!place_meeting(x, y + sign(vsp), oWall)) {
 		y += sign(vsp);
 	}
+	if (has_jumped) {
+		instance_create_depth(x,y+(34*2.7)+2,10,oShockwave);
+		has_jumped = false;
+			
+	}
+
 	vsp = 0;
 }
 
@@ -26,7 +32,7 @@ if (place_meeting(x + hsp, y, oWall) || place_meeting(x + hsp, y, oHazard)) {
 x += hsp;
 	
 if	(alarm[0] < 0 && !shockwave_attack && !roll_attack && !jump_attack) {
-	alarm[0] = 240;	
+	alarm[0] = 200;	
 }
 
 if (roll_attack) {
@@ -40,6 +46,8 @@ if (jump_attack) {
 }
 
 if (shockwave_attack) {		
-	instance_create_depth(x,y+(34*2.7)+2,10,oShockwave);
-	shockwave_attack = false;
+	sprite_index = sWilfordfallback;
+	vsp = -2;
+	hsp = -1 * image_xscale;
+	x += hsp;
 }

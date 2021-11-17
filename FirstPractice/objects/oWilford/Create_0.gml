@@ -6,3 +6,4 @@ boss_hp = 15;
 roll_attack = false;
 jump_attack = false;
 shockwave_attack = false;
+has_jumped = false;

@@ -1,4 +1,4 @@
-/// @desc telegraph
+/// @desc attacks
 if (roll_attack) {
 	sprite_index = sWilfordRoll;
 	hsp = 8 * sign(image_xscale);
@@ -10,7 +10,10 @@ if (jump_attack) {
 }
 
 if (shockwave_attack) {		
-	instance_create_depth(x,y,10,oShockwave);
-	
+	sprite_index = sWilfordfallback;
+	vsp = -2;
+	has_jumped = true;
+	hsp = -1 * image_xscale;
+	x += hsp;
+	shockwave_attack = false;
 }
-

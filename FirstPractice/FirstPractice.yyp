@@ -41,6 +41,7 @@
     {"id":{"name":"oParentWall","path":"objects/oParentWall/oParentWall.yy",},"order":15,},
     {"id":{"name":"RoomBoss","path":"rooms/RoomBoss/RoomBoss.yy",},"order":3,},
     {"id":{"name":"AnimationCurve1","path":"animcurves/AnimationCurve1/AnimationCurve1.yy",},"order":0,},
+    {"id":{"name":"sWilfordfallback","path":"sprites/sWilfordfallback/sWilfordfallback.yy",},"order":4,},
     {"id":{"name":"OThorns","path":"objects/OThorns/OThorns.yy",},"order":1,},
     {"id":{"name":"oWallBreakable","path":"objects/oWallBreakable/oWallBreakable.yy",},"order":14,},
     {"id":{"name":"sPlayerRCane","path":"sprites/sPlayerRCane/sPlayerRCane.yy",},"order":4,},
