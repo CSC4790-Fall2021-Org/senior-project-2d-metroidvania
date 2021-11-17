@@ -8,8 +8,8 @@ sprite_index = sEnemyW;
 
 // vertical collision
 vsp += grv;
-if (place_meeting(x, y + vsp, oWall)) {
-	while (!place_meeting(x, y + sign(vsp), oWall)) {
+if (place_meeting(x, y + vsp, oParentWall)) {
+	while (!place_meeting(x, y + sign(vsp), oParentWall)) {
 		y += sign(vsp);
 	}
 	vsp = 0;
@@ -18,9 +18,9 @@ if (place_meeting(x, y + vsp, oWall)) {
 y += vsp;
 
 // player movement: collision
-if (place_meeting(x + hsp, y, oWall) || place_meeting(x + hsp, y, oHazard)) {
+if (place_meeting(x + hsp, y, oParentWall) || place_meeting(x + hsp, y, oHazard)) {
 	is_facing = -is_facing;
-	while (!place_meeting(x + sign(hsp), y, oWall) and !place_meeting(x + sign(hsp), y, oHazard)) {
+	while (!place_meeting(x + sign(hsp), y, oParentWall) and !place_meeting(x + sign(hsp), y, oHazard)) {
 		x += sign(hsp);
 	}	
 	hsp = -hsp;
@@ -32,7 +32,7 @@ if (aggressive) {
 	hsp = 4 * is_facing;
 	sprite_index = sEnemyRoll;
 	
-	if (place_meeting(x, y, oWall) || place_meeting(x, y, oHazard)) {
+	if ((place_meeting(x, y, oParentWall) || place_meeting(x, y, oHazard)) && !place_meeting(x, y, oWallBreakable)) {
 		aggressive = false;
 		dazed = true;
 		hsp = 0;
