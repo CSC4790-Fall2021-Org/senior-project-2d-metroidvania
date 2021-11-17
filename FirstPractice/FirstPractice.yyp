@@ -12,12 +12,10 @@
     {"id":{"name":"oCatWalkExtension","path":"objects/oCatWalkExtension/oCatWalkExtension.yy",},"order":17,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":2,},
     {"id":{"name":"ShaderWhite","path":"shaders/ShaderWhite/ShaderWhite.yy",},"order":0,},
-<<<<<<< HEAD
     {"id":{"name":"sThorns","path":"sprites/sThorns/sThorns.yy",},"order":4,},
     {"id":{"name":"sSafePoint","path":"sprites/sSafePoint/sSafePoint.yy",},"order":12,},
     {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"order":11,},
     {"id":{"name":"oPause","path":"objects/oPause/oPause.yy",},"order":13,},
-=======
     {"id":{"name":"oHealthUpgrade","path":"objects/oHealthUpgrade/oHealthUpgrade.yy",},"order":18,},
     {"id":{"name":"Title","path":"sprites/Title/Title.yy",},"order":0,},
     {"id":{"name":"sThorns","path":"sprites/sThorns/sThorns.yy",},"order":1,},
@@ -26,7 +24,6 @@
     {"id":{"name":"sCatwalk","path":"sprites/sCatwalk/sCatwalk.yy",},"order":19,},
     {"id":{"name":"oWire","path":"objects/oWire/oWire.yy",},"order":13,},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
->>>>>>> 7ab2e53a7d43c93ad54f007571415e8c71320a87
     {"id":{"name":"oHealth","path":"objects/oHealth/oHealth.yy",},"order":10,},
     {"id":{"name":"sWarp","path":"sprites/sWarp/sWarp.yy",},"order":4,},
     {"id":{"name":"MenuRoom","path":"rooms/MenuRoom/MenuRoom.yy",},"order":3,},
@@ -67,13 +64,10 @@
     {"id":{"name":"sPlayerDash","path":"sprites/sPlayerDash/sPlayerDash.yy",},"order":14,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"TestMenu","path":"rooms/TestMenu/TestMenu.yy",},"order":3,},
-<<<<<<< HEAD
     {"id":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},"order":4,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
-=======
     {"id":{"name":"sCatWalkExtension","path":"sprites/sCatWalkExtension/sCatWalkExtension.yy",},"order":20,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":0,},
->>>>>>> 7ab2e53a7d43c93ad54f007571415e8c71320a87
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
