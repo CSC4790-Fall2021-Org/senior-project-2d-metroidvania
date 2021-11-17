@@ -7,8 +7,5 @@ if (next_attack == 0) {
 	roll_attack = true;
 }
 if (next_attack == 1) {
-	jump_attack = true;
-}
-if	(alarm[1] < 0) {
-	alarm[1] = 120;	
+	shockwave_attack = true;
 }

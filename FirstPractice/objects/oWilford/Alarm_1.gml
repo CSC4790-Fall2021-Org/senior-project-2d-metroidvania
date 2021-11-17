@@ -9,3 +9,9 @@ if (jump_attack) {
 	jump_attack = false; 
 }
 
+if (shockwave_attack) {		
+	instance_create_depth(x,y,10,oShockwave);
+	shockwave_attack = false;
+	
+}
+

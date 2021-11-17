@@ -20,15 +20,27 @@ if (place_meeting(x + hsp, y, oWall) || place_meeting(x + hsp, y, oHazard)) {
 	}	
 	hsp = -hsp;
 	image_xscale = -image_xscale;
-	vsp = -8;
-	for (i = 0;i<60;i++) {
-		x += sign(hsp);
-	}
+	vsp = -4;
 	hsp = 0;
 	roll_attack = false;
 }
 x += hsp;
 	
-if	(alarm[0] < 0) {
+if	(alarm[0] < 0 && !shockwave_attack && !roll_attack && !jump_attack) {
 	alarm[0] = 240;	
+}
+
+if (roll_attack) {
+	sprite_index = sWilfordRoll;
+	hsp = 8 * sign(image_xscale);
+}
+
+if (jump_attack) {
+	vsp = -6;
+	jump_attack = false; 
+}
+
+if (shockwave_attack) {		
+	instance_create_depth(x,y+(34*2.7)+2,10,oShockwave);
+	shockwave_attack = false;
 }
