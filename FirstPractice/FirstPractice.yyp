@@ -21,7 +21,6 @@
     {"id":{"name":"Title","path":"sprites/Title/Title.yy",},"order":0,},
     {"id":{"name":"sCatwalk","path":"sprites/sCatwalk/sCatwalk.yy",},"order":19,},
     {"id":{"name":"oShockwave","path":"objects/oShockwave/oShockwave.yy",},"order":1,},
-    {"id":{"name":"oWire","path":"objects/oWire/oWire.yy",},"order":13,},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
     {"id":{"name":"oHealth","path":"objects/oHealth/oHealth.yy",},"order":10,},
     {"id":{"name":"sWarp","path":"sprites/sWarp/sWarp.yy",},"order":4,},

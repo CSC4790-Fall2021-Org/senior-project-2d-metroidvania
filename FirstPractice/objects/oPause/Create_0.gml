@@ -5,16 +5,8 @@ global.gamePaused = false;
 width = room_width;
 height = room_height;
 
-with (oEnemy) {
-	gamePausedHSP = walksp;
-	gamePausedImageSpeed = image_speed;
-}
-
-with (oPlayer) {
-	gamePausedImageSpeed = image_speed;
-	wasGrapple = false;
-	playerX = x;
-	playerY = y;
-}
-
-pause_options = ["Continue", "Save & Quit", "Quit"];
+with (oEnemy)
+	gamePausedHSP = 0;
+	
+pauseOptions = ["Continue", "Load Game", "Save and Quit"];
+pauseOptionSelected = 0;
