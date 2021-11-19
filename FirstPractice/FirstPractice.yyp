@@ -62,7 +62,6 @@
     {"id":{"name":"sGrapple","path":"sprites/sGrapple/sGrapple.yy",},"order":5,},
     {"id":{"name":"loadGame","path":"scripts/loadGame/loadGame.yy",},"order":1,},
     {"id":{"name":"oInvisWall","path":"objects/oInvisWall/oInvisWall.yy",},"order":5,},
-    {"id":{"name":"oSaveLoad","path":"objects/oSaveLoad/oSaveLoad.yy",},"order":14,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sPlayerDash","path":"sprites/sPlayerDash/sPlayerDash.yy",},"order":5,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
