@@ -7,6 +7,7 @@ function saveGame(){
 	{
 		room : room_get_name(room),
 		playerhealth : global.playerhealth,
+		maxhealth : global.maxhealth
 	}
 	array_push(_saveData, _saveEntity);
 	
