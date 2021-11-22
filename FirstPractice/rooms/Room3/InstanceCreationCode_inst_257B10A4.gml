@@ -1,3 +1,3 @@
 targetRoom = RoomBoss
-targetX = 200
-targetY = 330
+targetX = 70
+targetY = 288
