@@ -13,3 +13,4 @@ curr_cycle = 0;
 prev_attack = -1;
 wilford_text = noone;
 hurt = 0;
+active = false;

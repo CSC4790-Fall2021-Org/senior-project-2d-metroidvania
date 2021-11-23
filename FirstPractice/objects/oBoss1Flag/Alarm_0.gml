@@ -3,3 +3,4 @@
 instance_destroy(inst_5437077B);
 instance_destroy(inst_1FFD02B2);
 oPlayer.input_blocked = false;
+activated = true;
