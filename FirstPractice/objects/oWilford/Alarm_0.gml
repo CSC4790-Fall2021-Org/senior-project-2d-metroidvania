@@ -1,7 +1,7 @@
 /// @desc select next attack
 
 if (curr_cycle == attack_cycle) {
-	jump_attack = true;
+	group_attack = true;
 	curr_cycle = 0;
 	prev_attack = -1;
 }

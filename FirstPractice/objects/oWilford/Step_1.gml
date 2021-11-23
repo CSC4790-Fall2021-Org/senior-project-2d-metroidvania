@@ -1,5 +1,5 @@
 /// @desc attacks
-if	(alarm[0] < 0 && !shockwave_attack && !roll_attack && !jump_attack) {
+if	(alarm[0] < 0 && !shockwave_attack && !roll_attack && !group_attack) {
 	alarm[0] = 200;	
 } 
 
@@ -8,10 +8,11 @@ if (roll_attack) {
 	hsp = 8 * sign(image_xscale);
 }
 
-if (jump_attack) {
-	vsp = -6;
-	jump_attack = false; 
-	instance_create_depth(oPlayer.x,800,0,oRotundBossVariant);
+if (group_attack) {
+	sprite_index = sWilfordWave;
+	if (alarm[1] <=0) {
+		alarm[1] = 20;
+	}
 }
 
 if (shockwave_attack) {		
