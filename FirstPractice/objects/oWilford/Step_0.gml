@@ -1,9 +1,6 @@
 /// @desc Wilford the Immense logic
-// vertical collision
-if (boss_hp <= 0) {
-	instance_destroy(self.id)	
-}
 
+// vertical collision
 vsp += grv;
 if (place_meeting(x, y + vsp, oWall)) {
 	while (!place_meeting(x, y + sign(vsp), oWall)) {
@@ -33,3 +30,24 @@ if (place_meeting(x + hsp, y, oWall) || place_meeting(x + hsp, y, oHazard)) {
 	alarm[2] = 100;
 }
 x += hsp;
+	
+if	(alarm[0] < 0 && !shockwave_attack && !roll_attack && !jump_attack) {
+	alarm[0] = 200;	
+}
+
+if (roll_attack) {
+	sprite_index = sWilfordRoll;
+	hsp = 8 * sign(image_xscale);
+}
+
+if (jump_attack) {
+	vsp = -6;
+	jump_attack = false; 
+}
+
+if (shockwave_attack) {		
+	sprite_index = sWilfordfallback;
+	vsp = -2;
+	hsp = -1 * image_xscale;
+	x += hsp;
+}

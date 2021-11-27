@@ -8,8 +8,8 @@ sprite_index = sEnemyW;
 
 // vertical collision
 vsp += grv;
-if (place_meeting(x, y + vsp, oParentWall) || place_meeting(x, y + vsp, oInvisWall)) {
-	while (!place_meeting(x, y + sign(vsp), oParentWall) && !place_meeting(x, y + sign(vsp), oInvisWall)) {
+if (place_meeting(x, y + vsp, oParentWall)) {
+	while (!place_meeting(x, y + sign(vsp), oParentWall)) {
 		y += sign(vsp);
 	}
 	vsp = 0;
