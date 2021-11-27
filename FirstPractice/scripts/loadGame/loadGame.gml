@@ -23,7 +23,6 @@ function loadGame(){
 		var _loadEntity = array_pop(_loadData);
 		room_goto(asset_get_index(_loadEntity.room));
 		global.playerhealth = _loadEntity.playerhealth;
-		global.maxhealth = _loadEntity.maxhealth;
 	
 		show_debug_message("Game Loaded!");
 	}

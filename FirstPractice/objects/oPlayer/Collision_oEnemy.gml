@@ -3,7 +3,6 @@ if (invincible == false) {
 	global.playerhealth -= 2;
 	invincible = true;
 	input_blocked = true;
-	grapple = false;
 	flash = 80;
 	alarm[0] = 80;
 	alarm[1] = 50;
