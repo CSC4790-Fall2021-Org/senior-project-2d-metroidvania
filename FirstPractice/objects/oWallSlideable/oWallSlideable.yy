@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sWallSlideable",
+    "path": "sprites/sWallSlideable/sWallSlideable.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oParentWall",
+    "path": "objects/oParentWall/oParentWall.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWire",
+  "name": "oWallSlideable",
   "tags": [],
   "resourceType": "GMObject",
 }
