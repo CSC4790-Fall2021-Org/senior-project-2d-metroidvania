@@ -29,7 +29,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oHealthBonus",
+  "name": "oHealthBonus5",
   "tags": [],
   "resourceType": "GMObject",
 }
