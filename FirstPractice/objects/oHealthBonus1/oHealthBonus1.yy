@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Health",
+    "path": "folders/Objects/Health.yy",
   },
   "resourceVersion": "1.0",
   "name": "oHealthBonus1",
