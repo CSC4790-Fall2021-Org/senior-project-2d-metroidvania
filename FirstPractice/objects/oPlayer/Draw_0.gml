@@ -14,6 +14,13 @@ if (dash > 0) {
 	draw_self();
 	//shader_reset();
 }
+
+if (slide > 0) {
+	slide--;
+	sprite_index = sPlayerSlide;
+	draw_self();
+}
+
 if (grapple) {
 	draw_line(oCane.x, oCane.y, gx, gy);
 }

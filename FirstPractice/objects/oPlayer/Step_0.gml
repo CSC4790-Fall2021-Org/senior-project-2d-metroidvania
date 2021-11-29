@@ -9,7 +9,7 @@ if (input_blocked == false) {
 
 	hsp = move * walksp;
 	// player movement: collision
-	if (place_meeting(x + hsp, y, oParentWall) && dash == 0) {
+	if (place_meeting(x + hsp, y, oParentWall) && dash == 0 && slide == 0) {
 		while (!place_meeting(x + sign(hsp), y, oParentWall)) {
 			x += sign(hsp);
 		}
@@ -17,6 +17,10 @@ if (input_blocked == false) {
 	}
 	else if(place_meeting(x + hsp, y, oWallBreakable) && dash > 0) {
 		instance_destroy(instance_nearest(x,y,oWallBreakable))
+	}
+	else if(place_meeting(x + hsp, y, oWallSlideable) && slide > 0) {
+		move = key_right - key_left;
+		hsp = move * walksp;
 	}
 	else if(place_meeting(x + hsp, y, oParentWall)) {
 		while (!place_meeting(x + sign(hsp), y, oParentWall)) {
@@ -53,6 +57,13 @@ if (input_blocked == false) {
 			x += 4*image_xscale;
 		}
 	}
+	
+	if (slide > 0) {
+		if (!place_meeting(x + 10*image_xscale, y, oParentWall)) {
+			x += 4*image_xscale;
+		}
+	}
+	
 	x += hsp;
 }
 	
@@ -75,7 +86,7 @@ if (!place_meeting(x, y+1, oParentWall) && dash == 0) {
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
 }
 // sprite logic
-else if(dash == 0) {
+else if(dash == 0 && slide == 0) {
 	image_speed = 1;
 	if (hsp == 0) {
 		sprite_index = sPlayer;
