@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 15,
-  "bbox_right": 48,
+  "bbox_left": 0,
+  "bbox_right": 63,
   "bbox_top": 0,
   "bbox_bottom": 63,
   "HTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"344b32a2-86bc-4335-bd00-93901c9cdf1b","path":"sprites/sCatWalkExtension/sCatWalkExtension.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"344b32a2-86bc-4335-bd00-93901c9cdf1b","path":"sprites/sCatWalkExtension/sCatWalkExtension.yy",},"LayerId":{"name":"b518ffb9-ac50-47d0-83a2-095ddd8a9ee3","path":"sprites/sCatWalkExtension/sCatWalkExtension.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCatWalkExtension","path":"sprites/sCatWalkExtension/sCatWalkExtension.yy",},"resourceVersion":"1.0","name":"344b32a2-86bc-4335-bd00-93901c9cdf1b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d7983ef5-2fd4-419a-a31b-cd5a6a8c9a65","path":"sprites/sDoorLocked/sDoorLocked.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d7983ef5-2fd4-419a-a31b-cd5a6a8c9a65","path":"sprites/sDoorLocked/sDoorLocked.yy",},"LayerId":{"name":"a7dd2fa5-ae46-43e2-8c2b-03c050c15667","path":"sprites/sDoorLocked/sDoorLocked.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sDoorLocked","path":"sprites/sDoorLocked/sDoorLocked.yy",},"resourceVersion":"1.0","name":"d7983ef5-2fd4-419a-a31b-cd5a6a8c9a65","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sCatWalkExtension","path":"sprites/sCatWalkExtension/sCatWalkExtension.yy",},
+    "spriteId": {"name":"sDoorLocked","path":"sprites/sDoorLocked/sDoorLocked.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9da5cb64-4854-4004-b71e-84624f8f6565","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"344b32a2-86bc-4335-bd00-93901c9cdf1b","path":"sprites/sCatWalkExtension/sCatWalkExtension.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"00a0a9ed-a1a1-4824-8526-184973e67cf2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d7983ef5-2fd4-419a-a31b-cd5a6a8c9a65","path":"sprites/sDoorLocked/sDoorLocked.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sCatWalkExtension","path":"sprites/sCatWalkExtension/sCatWalkExtension.yy",},
+    "parent": {"name":"sDoorLocked","path":"sprites/sDoorLocked/sDoorLocked.yy",},
     "resourceVersion": "1.3",
-    "name": "sCatWalkExtension",
+    "name": "sDoorLocked",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b518ffb9-ac50-47d0-83a2-095ddd8a9ee3","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a7dd2fa5-ae46-43e2-8c2b-03c050c15667","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/enviromnment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sCatWalkExtension",
+  "name": "sDoorLocked",
   "tags": [],
   "resourceType": "GMSprite",
 }
