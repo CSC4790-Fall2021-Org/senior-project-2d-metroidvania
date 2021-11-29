@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (keyboard_check_pressed(vk_escape)) {
+if (keyboard_check_pressed(vk_escape) && sign(oPlayer.vsp) <= 0) {
 	global.gamePaused = !global.gamePaused;
 	with (oPlayer) {
 		input_blocked = !input_blocked;
@@ -19,7 +19,7 @@ if (global.gamePaused) {
 		grapple = false;
 		input_blocked = true;
 		hsp = 0;
-		vsp = 0;
+		//vsp += gravity;
 		image_speed = 0;
 	}
 	with (oEnemy) {
@@ -60,7 +60,6 @@ if (global.gamePaused) {
 			} break;
 			case 2: //Save and Quit
 			{
-				saveGame();
 				game_restart();
 			} break;
 		}
