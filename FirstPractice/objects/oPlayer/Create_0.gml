@@ -6,6 +6,7 @@ walksp = 5;
 flash = 0;
 dash = 0;
 slide = 0;
+global.HasKey = false;
 SlideAbility = false;
 DashCool = false;
 invincible = false;
