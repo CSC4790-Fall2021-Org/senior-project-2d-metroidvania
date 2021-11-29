@@ -19,9 +19,9 @@ function loadGame(){
 				image_index = image_index;
 			}
 		}
-	
+		
 		var _loadEntity = array_pop(_loadData);
-		room_goto(asset_get_index(_loadEntity.room));
+		room_goto(asset_get_index(_loadEntity.targetRoom));
 		global.playerhealth = _loadEntity.playerhealth;
 		global.maxhealth = _loadEntity.maxhealth;
 	

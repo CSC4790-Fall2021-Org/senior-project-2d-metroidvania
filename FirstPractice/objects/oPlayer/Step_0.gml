@@ -40,8 +40,10 @@ if (input_blocked == false) {
 	}
 	
 	if (grapple) {
-		x += (gx - x) * 0.05;
-		y += (gy - y) * 0.05;
+		if (!place_meeting((x + (gx - x) * 0.05), y, oParentWall))
+			x += (gx - x) * 0.05;
+		if (!place_meeting(x, (y + (gy - y) * 0.05), oParentWall))
+			y += (gy - y) * 0.05;
 		vsp = 0;
 		hsp = 0;
 	}

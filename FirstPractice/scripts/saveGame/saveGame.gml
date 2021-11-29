@@ -2,12 +2,12 @@
 function saveGame(){
 	
 	var _saveData = array_create(0);
-
+	
 	var _saveEntity = 
 	{
-		room : room_get_name(room),
+		targetRoom : room_get_name(room),
 		playerhealth : global.playerhealth,
-		maxhealth : global.maxhealth
+		maxhealth : global.maxhealth,
 	}
 	array_push(_saveData, _saveEntity);
 	
