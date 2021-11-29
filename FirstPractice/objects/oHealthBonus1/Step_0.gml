@@ -1,4 +1,4 @@
-if(global.playerhealth == 12) {
+if(global.playerhealth >= 12) {
 	image_index = 0;
 }
 if(global.playerhealth == 11) {
