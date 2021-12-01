@@ -1,0 +1,1 @@
+myText = "Grapple onto nearby hooks by pressing Enter!";

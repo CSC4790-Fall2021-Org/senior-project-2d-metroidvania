@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (keyboard_check_pressed(vk_escape) && sign(oPlayer.vsp) <= 0) {
+/*if (keyboard_check_pressed(vk_escape) && sign(oPlayer.vsp) <= 0) {
 	global.gamePaused = !global.gamePaused;
 	with (oPlayer) {
 		input_blocked = !input_blocked;
@@ -12,10 +12,10 @@ if (keyboard_check_pressed(vk_escape) && sign(oPlayer.vsp) <= 0) {
 		else
 			gamePausedHSP = hsp;
 	}
-}
+}*/
 
 if (global.gamePaused) {
-	with (oPlayer) {
+	/*with (oPlayer) {
 		grapple = false;
 		input_blocked = true;
 		hsp = 0;
@@ -25,7 +25,7 @@ if (global.gamePaused) {
 	with (oEnemy) {
 		hsp = 0;
 		image_speed = 0;
-	}
+	}*/
 	
 	//menu logic
 	keyUp = keyboard_check_pressed(vk_up);
