@@ -1,3 +1,3 @@
 targetRoom = RoomSneakyKey;
 targetX = 100;
-targetY = 90;
+targetY = 95;
