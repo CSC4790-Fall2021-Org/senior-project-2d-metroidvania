@@ -79,6 +79,7 @@
     {"id":{"name":"RoomSneakySecret","path":"rooms/RoomSneakySecret/RoomSneakySecret.yy",},"order":6,},
     {"id":{"name":"sPit","path":"sprites/sPit/sPit.yy",},"order":11,},
     {"id":{"name":"sGrapple","path":"sprites/sGrapple/sGrapple.yy",},"order":5,},
+    {"id":{"name":"RoomSneakyKey","path":"rooms/RoomSneakyKey/RoomSneakyKey.yy",},"order":7,},
     {"id":{"name":"loadGame","path":"scripts/loadGame/loadGame.yy",},"order":1,},
     {"id":{"name":"oInvisWall","path":"objects/oInvisWall/oInvisWall.yy",},"order":5,},
     {"id":{"name":"sDoorLocked","path":"sprites/sDoorLocked/sDoorLocked.yy",},"order":14,},
@@ -113,6 +114,7 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"RoomBoss","path":"rooms/RoomBoss/RoomBoss.yy",},},
     {"roomId":{"name":"RoomSneakySecret","path":"rooms/RoomSneakySecret/RoomSneakySecret.yy",},},
+    {"roomId":{"name":"RoomSneakyKey","path":"rooms/RoomSneakyKey/RoomSneakyKey.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
