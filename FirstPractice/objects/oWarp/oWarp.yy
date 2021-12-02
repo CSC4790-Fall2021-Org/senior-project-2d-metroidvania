@@ -4,7 +4,7 @@
     "path": "sprites/sWarp/sWarp.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": {
     "name": "sWarp",
     "path": "sprites/sWarp/sWarp.yy",
