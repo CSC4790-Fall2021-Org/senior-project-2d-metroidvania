@@ -5,8 +5,5 @@ global.gamePaused = false;
 width = room_width;
 height = room_height;
 
-with (oEnemy)
-	gamePausedHSP = 0;
-	
-pauseOptions = ["Continue", "Load Game", "Save and Quit"];
+pauseOptions = ["Load Game", "Save and Quit"];
 pauseOptionSelected = 0;
