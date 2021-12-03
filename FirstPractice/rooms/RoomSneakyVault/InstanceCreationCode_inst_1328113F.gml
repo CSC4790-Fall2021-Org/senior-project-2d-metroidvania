@@ -1,3 +1,3 @@
 targetRoom = RoomSneakySneak;
-targetX = 1120;
-targetY = 670;
+targetX = 415;
+targetY = 225;
