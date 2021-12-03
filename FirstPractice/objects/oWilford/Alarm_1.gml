@@ -1,16 +1,6 @@
-/// @desc telegraph
-if (roll_attack) {
-	sprite_index = sWilfordRoll;
-	hsp = 8 * sign(image_xscale);
-}
-
-if (jump_attack) {
-	vsp = -6;
-	jump_attack = false; 
-}
-
-if (shockwave_attack) {		
-	instance_create_depth(x,y,10,oShockwave);
+///@desc spawn enemy and wine glasses
+	instance_create_depth(oPlayer.x,800,0,oRotundBossVariant);
+	instance_create_depth(x + (sign(image_xscale) * 300 * random_range(0,1)),800,0,oWineGlass);
+	instance_create_depth(x + (sign(image_xscale) * 300 * random_range(0,1)),800,0,oWineGlass);
 	
-}
-
+	group_attack = false; 

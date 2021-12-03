@@ -1,31 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (keyboard_check_pressed(vk_escape)) {
-	global.gamePaused = !global.gamePaused;
-	with (oPlayer) {
-		input_blocked = !input_blocked;
-	}
-	with (oEnemy) {
-		image_speed = 1;
-		if (hsp == 0)
-			hsp = gamePausedHSP;
-		else
-			gamePausedHSP = hsp;
-	}
-}
 
 if (global.gamePaused) {
-	with (oPlayer) {
-		grapple = false;
-		input_blocked = true;
-		hsp = 0;
-		vsp = 0;
-		image_speed = 0;
-	}
-	with (oEnemy) {
-		hsp = 0;
-		image_speed = 0;
-	}
 	
 	//menu logic
 	keyUp = keyboard_check_pressed(vk_up);
@@ -40,19 +16,10 @@ if (global.gamePaused) {
 	keyActivate = keyboard_check_pressed(vk_enter); //option selected
 	if (keyActivate) {
 		switch (pauseOptionSelected) {
-			case 0: //Continue
+			case 0: //Save Game
 			{
-				global.gamePaused = false;
-				with (oPlayer) {
-					input_blocked = false;
-				}
-				with (oEnemy) {
-					image_speed = 1;
-					if (hsp == 0)
-						hsp = gamePausedHSP;
-					else
-						gamePausedHSP = hsp;
-				}
+				saveGame();
+				show_message("Game Saved!");
 			} break;
 			case 1: //Load Game
 			{
@@ -61,8 +28,14 @@ if (global.gamePaused) {
 			case 2: //Save and Quit
 			{
 				saveGame();
-				game_restart();
+				game_end();
 			} break;
+			case 3: //Restart Game
+			{
+				game_restart();
+				if (file_exists("savedata.save"))
+					file_delete("savedata.save");
+			}
 		}
 	}
 }

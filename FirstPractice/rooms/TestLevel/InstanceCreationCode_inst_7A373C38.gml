@@ -1,0 +1,1 @@
+myText = "Welcome to GentleM(e)an! That red heart in the corner is your health. Use your arrow keys to move and jump. Press Enter to grapple. Try it out now!";

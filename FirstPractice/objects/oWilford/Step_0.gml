@@ -1,6 +1,15 @@
 /// @desc Wilford the Immense logic
-
 // vertical collision
+if (boss_hp <= 0) {
+	instance_create_depth(658,1094,0,oDashUpgrade);
+	instance_activate_object(inst_AACC2C2);
+	inst_AACC2C2.myText = "Oooh an upgrade! Inspired by Wilford's immense roll you can now press 'e' to perform a fierce dash that can break cracked walls!"
+	instance_create_depth(x+50,y+50,0,oKey);
+	instance_destroy(self.id);	
+	instance_create_depth(0,1088,0,oWallBreakable);
+	instance_destroy(inst_6616C360);
+}
+
 vsp += grv;
 if (place_meeting(x, y + vsp, oWall)) {
 	while (!place_meeting(x, y + sign(vsp), oWall)) {
@@ -30,24 +39,3 @@ if (place_meeting(x + hsp, y, oWall) || place_meeting(x + hsp, y, oHazard)) {
 	alarm[2] = 100;
 }
 x += hsp;
-	
-if	(alarm[0] < 0 && !shockwave_attack && !roll_attack && !jump_attack) {
-	alarm[0] = 200;	
-}
-
-if (roll_attack) {
-	sprite_index = sWilfordRoll;
-	hsp = 8 * sign(image_xscale);
-}
-
-if (jump_attack) {
-	vsp = -6;
-	jump_attack = false; 
-}
-
-if (shockwave_attack) {		
-	sprite_index = sWilfordfallback;
-	vsp = -2;
-	hsp = -1 * image_xscale;
-	x += hsp;
-}

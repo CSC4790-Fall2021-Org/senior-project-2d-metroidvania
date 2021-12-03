@@ -1,0 +1,1 @@
+myText = "Press space to attack enemies. Look there's one now!"

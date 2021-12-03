@@ -1,3 +1,4 @@
-targetRoom = Room2;
-targetX = 96;
-targetY = 672;
+
+targetRoom = Room1;
+targetX = 94;
+targetY = 544;
