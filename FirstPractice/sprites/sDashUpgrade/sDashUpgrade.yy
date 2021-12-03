@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "FirstPractice",
-    "path": "FirstPractice.yyp",
+    "name": "start screen",
+    "path": "folders/Sprites/start screen.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDashUpgrade",
