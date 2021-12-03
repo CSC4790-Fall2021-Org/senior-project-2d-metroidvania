@@ -18,3 +18,4 @@ global.playerhealth = 10;
 grapple = false;
 gx = 0;
 gy = 0;
+dashUnlocked = false;
