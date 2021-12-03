@@ -4,4 +4,6 @@
 draw_sprite(sTextBox, 0, x, y);
 
 draw_set_color(c_white);
-draw_text_ext(x + 15, y + 15, text, 15, boxWidth);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_text_ext(x + 30, y + 30, text, 15, boxWidth - 15);

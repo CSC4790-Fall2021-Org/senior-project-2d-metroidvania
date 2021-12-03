@@ -1,1 +1,1 @@
-myText = "Press Escape at any point to pause. Hope you enjoy!";
+myText = "Press Escape at any point to pause and save the game. Remember to save frequently!";

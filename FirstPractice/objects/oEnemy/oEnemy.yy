@@ -4,10 +4,7 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oSaveEntities",
-    "path": "objects/oSaveEntities/oSaveEntities.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
