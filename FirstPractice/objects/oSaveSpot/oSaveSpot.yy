@@ -1,14 +1,11 @@
 {
   "spriteId": {
-    "name": "sWarp",
-    "path": "sprites/sWarp/sWarp.yy",
+    "name": "sSaveLoad",
+    "path": "sprites/sSaveLoad/sSaveLoad.yy",
   },
   "solid": false,
   "visible": false,
-  "spriteMaskId": {
-    "name": "sWarp",
-    "path": "sprites/sWarp/sWarp.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -24,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWarp",
+  "name": "oSaveSpot",
   "tags": [],
   "resourceType": "GMObject",
 }
