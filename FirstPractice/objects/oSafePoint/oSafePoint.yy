@@ -4,7 +4,7 @@
     "path": "sprites/sSafePoint/sSafePoint.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
