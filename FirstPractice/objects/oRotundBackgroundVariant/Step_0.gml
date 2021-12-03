@@ -1,5 +1,5 @@
 /// @desc rotund gentleman logic
-if(global.enemyhealth <= 0) {
+if(enemyhealth <= 0) {
 	instance_destroy();
 }
 

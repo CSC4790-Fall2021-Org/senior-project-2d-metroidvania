@@ -56,6 +56,7 @@
     {"id":{"name":"sEnemyDead","path":"sprites/sEnemyDead/sEnemyDead.yy",},"order":4,},
     {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":14,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},
+    {"id":{"name":"wineGlassCreator","path":"objects/wineGlassCreator/wineGlassCreator.yy",},"order":4,},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":1,},
     {"id":{"name":"sEnemyW","path":"sprites/sEnemyW/sEnemyW.yy",},"order":3,},
     {"id":{"name":"sWilford","path":"sprites/sWilford/sWilford.yy",},"order":0,},
@@ -74,6 +75,7 @@
     {"id":{"name":"oLockedText","path":"objects/oLockedText/oLockedText.yy",},"order":30,},
     {"id":{"name":"sPlayerRCane","path":"sprites/sPlayerRCane/sPlayerRCane.yy",},"order":4,},
     {"id":{"name":"oDialogue","path":"objects/oDialogue/oDialogue.yy",},"order":32,},
+    {"id":{"name":"WilfordTreasureRoom","path":"rooms/WilfordTreasureRoom/WilfordTreasureRoom.yy",},"order":12,},
     {"id":{"name":"sGoldBar","path":"sprites/sGoldBar/sGoldBar.yy",},"order":24,},
     {"id":{"name":"oWarp","path":"objects/oWarp/oWarp.yy",},"order":3,},
     {"id":{"name":"oWallSlideable","path":"objects/oWallSlideable/oWallSlideable.yy",},"order":20,},
@@ -108,6 +110,7 @@
     {"id":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},"order":4,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":0,},
     {"id":{"name":"sWilfordWave","path":"sprites/sWilfordWave/sWilfordWave.yy",},"order":5,},
+    {"id":{"name":"oRotundKeyVariant","path":"objects/oRotundKeyVariant/oRotundKeyVariant.yy",},"order":5,},
     {"id":{"name":"sCatWalkExtension","path":"sprites/sCatWalkExtension/sCatWalkExtension.yy",},"order":12,},
   ],
   "Options": [
@@ -139,6 +142,7 @@
     {"roomId":{"name":"RoomSneakySecret2","path":"rooms/RoomSneakySecret2/RoomSneakySecret2.yy",},},
     {"roomId":{"name":"RoomSneakyVault","path":"rooms/RoomSneakyVault/RoomSneakyVault.yy",},},
     {"roomId":{"name":"RoomSneakyFinal","path":"rooms/RoomSneakyFinal/RoomSneakyFinal.yy",},},
+    {"roomId":{"name":"WilfordTreasureRoom","path":"rooms/WilfordTreasureRoom/WilfordTreasureRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

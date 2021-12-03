@@ -1,5 +1,6 @@
 /// @desc rotund gentleman logic
 if(enemyhealth <= 0) {
+	instance_create_depth(x,y,10,oKey);	
 	instance_destroy();
 }
 
