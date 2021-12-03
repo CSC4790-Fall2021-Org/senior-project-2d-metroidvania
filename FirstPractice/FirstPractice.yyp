@@ -70,6 +70,7 @@
     {"id":{"name":"oLockedText","path":"objects/oLockedText/oLockedText.yy",},"order":30,},
     {"id":{"name":"sPlayerRCane","path":"sprites/sPlayerRCane/sPlayerRCane.yy",},"order":4,},
     {"id":{"name":"oDialogue","path":"objects/oDialogue/oDialogue.yy",},"order":32,},
+    {"id":{"name":"sGoldBar","path":"sprites/sGoldBar/sGoldBar.yy",},"order":24,},
     {"id":{"name":"oWarp","path":"objects/oWarp/oWarp.yy",},"order":3,},
     {"id":{"name":"oSaveEntities","path":"objects/oSaveEntities/oSaveEntities.yy",},"order":15,},
     {"id":{"name":"sSaveLoad","path":"sprites/sSaveLoad/sSaveLoad.yy",},"order":15,},
