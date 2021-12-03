@@ -2,7 +2,7 @@
 grv = 0.3;
 hsp = 0;
 vsp = 0;
-boss_hp = 15;
+boss_hp = 5;
 roll_attack = false;
 group_attack = false;
 shockwave_attack = false;
