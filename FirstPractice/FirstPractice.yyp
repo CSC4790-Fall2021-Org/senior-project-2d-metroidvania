@@ -8,6 +8,7 @@
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":1,},
     {"id":{"name":"oGrapple","path":"objects/oGrapple/oGrapple.yy",},"order":6,},
     {"id":{"name":"oDoorLocked","path":"objects/oDoorLocked/oDoorLocked.yy",},"order":29,},
+    {"id":{"name":"RoomSneakySneak","path":"rooms/RoomSneakySneak/RoomSneakySneak.yy",},"order":8,},
     {"id":{"name":"oPit","path":"objects/oPit/oPit.yy",},"order":3,},
     {"id":{"name":"sWallBreakable","path":"sprites/sWallBreakable/sWallBreakable.yy",},"order":13,},
     {"id":{"name":"sSlideUpgrade","path":"sprites/sSlideUpgrade/sSlideUpgrade.yy",},"order":9,},
@@ -69,6 +70,7 @@
     {"id":{"name":"oLockedText","path":"objects/oLockedText/oLockedText.yy",},"order":30,},
     {"id":{"name":"sPlayerRCane","path":"sprites/sPlayerRCane/sPlayerRCane.yy",},"order":4,},
     {"id":{"name":"oDialogue","path":"objects/oDialogue/oDialogue.yy",},"order":32,},
+    {"id":{"name":"sGoldBar","path":"sprites/sGoldBar/sGoldBar.yy",},"order":24,},
     {"id":{"name":"oWarp","path":"objects/oWarp/oWarp.yy",},"order":3,},
     {"id":{"name":"sSaveLoad","path":"sprites/sSaveLoad/sSaveLoad.yy",},"order":15,},
     {"id":{"name":"oWallSlideable","path":"objects/oWallSlideable/oWallSlideable.yy",},"order":20,},
@@ -126,6 +128,7 @@
     {"roomId":{"name":"RoomSneakySecret","path":"rooms/RoomSneakySecret/RoomSneakySecret.yy",},},
     {"roomId":{"name":"RoomSneakyKey","path":"rooms/RoomSneakyKey/RoomSneakyKey.yy",},},
     {"roomId":{"name":"TestMenu","path":"rooms/TestMenu/TestMenu.yy",},},
+    {"roomId":{"name":"RoomSneakySneak","path":"rooms/RoomSneakySneak/RoomSneakySneak.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
