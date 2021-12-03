@@ -7,6 +7,7 @@
     {"id":{"name":"sSpecialEventFlag","path":"sprites/sSpecialEventFlag/sSpecialEventFlag.yy",},"order":22,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":1,},
     {"id":{"name":"oGrapple","path":"objects/oGrapple/oGrapple.yy",},"order":6,},
+    {"id":{"name":"oGold","path":"objects/oGold/oGold.yy",},"order":33,},
     {"id":{"name":"oDoorLocked","path":"objects/oDoorLocked/oDoorLocked.yy",},"order":29,},
     {"id":{"name":"RoomSneakySneak","path":"rooms/RoomSneakySneak/RoomSneakySneak.yy",},"order":8,},
     {"id":{"name":"oPit","path":"objects/oPit/oPit.yy",},"order":3,},
@@ -83,6 +84,7 @@
     {"id":{"name":"sWilfordw","path":"sprites/sWilfordw/sWilfordw.yy",},"order":3,},
     {"id":{"name":"oRotundGentleman","path":"objects/oRotundGentleman/oRotundGentleman.yy",},"order":0,},
     {"id":{"name":"oRotundBossVariant","path":"objects/oRotundBossVariant/oRotundBossVariant.yy",},"order":3,},
+    {"id":{"name":"RoomSneakySecret2","path":"rooms/RoomSneakySecret2/RoomSneakySecret2.yy",},"order":9,},
     {"id":{"name":"oRotundBackgroundVariant","path":"objects/oRotundBackgroundVariant/oRotundBackgroundVariant.yy",},"order":2,},
     {"id":{"name":"sHealthUpgrade","path":"sprites/sHealthUpgrade/sHealthUpgrade.yy",},"order":6,},
     {"id":{"name":"oSafePoint","path":"objects/oSafePoint/oSafePoint.yy",},"order":9,},
@@ -128,6 +130,7 @@
     {"roomId":{"name":"RoomSneakyKey","path":"rooms/RoomSneakyKey/RoomSneakyKey.yy",},},
     {"roomId":{"name":"TestMenu","path":"rooms/TestMenu/TestMenu.yy",},},
     {"roomId":{"name":"RoomSneakySneak","path":"rooms/RoomSneakySneak/RoomSneakySneak.yy",},},
+    {"roomId":{"name":"RoomSneakySecret2","path":"rooms/RoomSneakySecret2/RoomSneakySecret2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
