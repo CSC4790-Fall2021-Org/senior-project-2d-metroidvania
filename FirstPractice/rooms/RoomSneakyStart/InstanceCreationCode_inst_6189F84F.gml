@@ -1,0 +1,1 @@
+myText = "Look an upgrade item, grab it! Now you can press Q to slide through small spaces in the wall.";
