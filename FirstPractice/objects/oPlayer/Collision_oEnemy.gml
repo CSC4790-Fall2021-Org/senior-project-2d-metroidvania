@@ -23,5 +23,5 @@ if (invincible == false) {
 	}
 }
 else if (dash > 0) {
-	global.enemyhealth -= 4;
+	other.enemyhealth -= 4;
 }

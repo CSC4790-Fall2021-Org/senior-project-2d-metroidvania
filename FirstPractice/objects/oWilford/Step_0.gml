@@ -2,6 +2,7 @@
 // vertical collision
 if (boss_hp <= 0) {
 	instance_create_depth(x,y,0,oDashUpgrade);
+	instance_create_depth(x+50,y+50,0,oKey);
 	instance_destroy(self.id);	
 	instance_create_depth(0,1088,0,oWallBreakable);
 	instance_destroy(inst_6616C360);
