@@ -1,4 +1,4 @@
-if (DashCool == false && place_meeting(x, y+1, oWall)) {
+if (DashCool == false && place_meeting(x, y+1, oWall) && dashUnlocked == true) {
 	dash = 30;
 	invincible = true;
 	DashCool = true;

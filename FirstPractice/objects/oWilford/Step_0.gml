@@ -1,7 +1,10 @@
 /// @desc Wilford the Immense logic
 // vertical collision
 if (boss_hp <= 0) {
-	instance_destroy(self.id)	
+	instance_create_depth(x,y,0,oDashUpgrade);
+	instance_destroy(self.id);	
+	instance_create_depth(0,1088,0,oWallBreakable);
+	instance_destroy(inst_6616C360);
 }
 
 vsp += grv;
