@@ -98,8 +98,12 @@ else if(dash == 0 && slide == 0) {
 if(global.playerhealth == 0) {
 	//instance_destroy(oPlayer);
 	//room_restart();
-	loadGame();
-	global.playerhealth = 10;
+	if (file_exists("savedata.save")) {
+		loadGame();
+		global.playerhealth = 10;
+	}
+	else
+		game_restart();
 }
 
 // makes character face direction of movement
